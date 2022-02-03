@@ -351,3 +351,7 @@ div.moving-opening1{
 	position: absolute;
 	transform: translateY(-100%);
 }
+
+#body-container{
+	position: relative;
+}
