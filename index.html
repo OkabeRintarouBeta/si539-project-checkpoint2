@@ -9,16 +9,13 @@
 	<!-- Link to the reset file -->
 	<link rel="stylesheet" href="css/html5reset.css">
 	<!-- Link to the stylesheet -->
+	
 	<link rel="stylesheet" href="css/style.css">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-6LZYTDEB3D"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'G-6LZYTDEB3D');
-	</script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Faustina&family=Merienda&family=Permanent+Marker&family=Changa&family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/699a16eae7.js" crossorigin="anonymous"></script>
 	<title>Durarara!!</title>
 </head>
 
@@ -26,45 +23,66 @@
 <body>
 	<!-- Header is a sematic tag page that aids readability -->
 	<header>
-		
+		<a href="#main" class="skip">Skip to main content</a>  
 		<!-- Nav is a sematic tag page that aids accessibility -->
-		<nav>
-			<img src="images/drrr_logo.png" alt="logo" width="180"/>
-			<a href="#main" class="skip">Skip to Main Content</a>
-			<ul>
-				<li class="active navigation-bar"><a href = "index.html" >Durarara!!</a></li>
-				<li class="navigation-bar"><a href = "characters.html">Main characters</a></li>
-				<li class="navigation-bar"><a href = "art.html">Artistic Style</a></li>
-				<li class="navigation-bar"><a href = "author.html">The author</a></li>
-			</ul>
+		<nav class="nav-container">
+			<div class="nav-left">
+				<div class="shine">DRRR!</div>
+				
+				<!-- <a href="#main" class="skip">Skip to Main Content</a> -->
+			</div>
+			<div class="nav-right">
+				<ul class="nav-ul-container">
+					<li class="active navigation-bar"><a href = "index.html" >About</a></li>
+					<li class="navigation-bar"><a href = "characters.html">Characters</a></li>
+					<li class="navigation-bar"><a href = "art.html">Style</a></li>
+					<li class="navigation-bar"><a href = "author.html">Author</a></li>
+				</ul>
+			</div>
+			
+			
 		</nav>
-        <h1>About Durarara!!</h1>
+		<h1>About Drrr</h1>
+        
 	</header>
 
 
 	<main id="main">
-		<div class="story-introduction">
-			
-			<div class="story-introduction-main">
-				<div class="story-introduction-text">
-					<h2>What is Durarara!!</h2>
-					<p>Durarara!! (デュラララ!!) is a 13-volume light novel series written by Ryohgo Narita and illustrated by Suzuhito Yasuda. There is both a manga and anime adaptation. 
-						The first season of the anime was produced by Studio Brain's Base and aired in winter 2010 in Japan and summer 2011 in North America, spanning 24 episodes and two OVAs. 
-						The second season, produced by Studio Shuka, was released in three separate cours that aired during winter 2015, summer 2015, and winter 2016. Each cour is 12 episodes long and includes an OVA. 
-						The North American release was produced by Aniplex USA, streamed on Crunchyroll, Funimation, and Hulu, and broadcast on Cartoon Network's Adult Swim.
-					</p>
-				</div>
-				<div class="story-introduction-img">
-					<img src="images/main.jpg" alt="main" width="550">
-				</div>
+		<div class="sub-title">
+			<h2 class="about about1">A story of Ikebukuro...</h2>
+			<h2 class="about about2">A story of everyone...</h2>
+			<h2 class="about about3">A story of twisted love...</h2>
+		</div>
+		<div class="learn-more">
+			<a href="#story-intro" >Click to see more</a>
+			<div></div>
+			<a href="#story-intro">▼</a>
+		</div>
+
+		<br><br>
+		<hr>
+
+
+
+
+		<div class="story-intro-container" id="story-intro">
+			<div class="story-intro-text">
+				<h2 class="story-intro-subtitle">What is Durarara!!</h2>
+				<p>Durarara!! (デュラララ!!) is a 13-volume light novel series written by Ryohgo Narita and illustrated by Suzuhito Yasuda. There is both a manga and anime adaptation. 
+					The first season of the anime was produced by Studio Brain's Base and aired in winter 2010 in Japan and summer 2011 in North America, spanning 24 episodes and two OVAs. 
+					The second season, produced by Studio Shuka, was released in three separate cours that aired during winter 2015, summer 2015, and winter 2016. Each cour is 12 episodes long and includes an OVA. 
+					The North American release was produced by Aniplex USA, streamed on Crunchyroll, Funimation, and Hulu, and broadcast on Cartoon Network's Adult Swim.
+				</p>
+			</div>
+			<div class="story-intro-img">
+				<img src="images/main.jpg" alt="main" width="500">
 			</div>
 		</div>
         
-		<div class="seperator"></div>
 
-		<div class="story-introduction-main2">
-			<div class="story-introduction-text2">
-				<h2>The Story</h2>
+		<div class="story-intro-container2">
+			<h2 class="story-intro-subtitle">The Story</h2>
+			<div class="story-intro-text2">
 				<p>
 					The story takes place in Ikebukuro, Tokyo, and features a large cast of main characters, 
 					including a modern-day Dullahan, an anonymous internet-based gang called the Dollars, 
@@ -74,20 +92,36 @@
 					The story follows the main characters equally as they affect and are affected by the events in the city around them. 
 				</p>
 			</div>
+
+			<div class="photo-gallery">
+				<div class="responsive">
+					<div class="gallery"><img src="images/cover.jpeg" alt="cover1" width="180" height='290'/></div>
+					<div class="desc">Series 1 Poster</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery"><img src="images/cover2.jpeg" alt="cover2" width="180" height='290'/></div>
+					<div class="desc">Series 2 Poster</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery"><img src="images/cover3.jpeg" alt="cover3" width="180" height="290"/></div>
+					<div class="desc">Series 3 Poster</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery"><img src="images/cover4.jpeg" alt="cover4" width="180" height='290'/></div>
+					<div class="desc">Series 4 Poster</div>
+				</div>
+			</div>
+
 		</div>
-		<div class="photo-slide">
-			<div class="first-photo"><img src="images/cover.jpeg" alt="cover1" width="220" /></div>
-        	<div><img src="images/cover2.jpeg" alt="cover2" width="220" /></div>
-    		<div><img src="images/cover3.jpeg" alt="cover3" width="220" height="310"/></div>
-    		<div><img src="images/cover4.jpeg" alt="cover4" width="220" /></div>
-		</div>
+		
         
         
 	</main>
 
 
 	<footer>
-		<p>  </p>
+		<hr>
+		<p>Zihui Liu SI539 Project 2022Winter</p>
 	</footer>
 </body>
 </html>
